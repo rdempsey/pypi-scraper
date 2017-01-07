@@ -20,7 +20,7 @@ If you want to run it locally or run the tests you'll need:
 
 ## Run It Like This
 
-* `git@github.com:rdempsey/pypi_scraper.git`
+* `git clone git@github.com:rdempsey/pypi_scraper.git`
 * `cd pypi_scraper`
 * Update `docker-compose.yml` to suit your fancy, specifically the data volume mount
 * `docker login`
@@ -29,7 +29,7 @@ If you want to run it locally or run the tests you'll need:
 
 ## Run the Tests With Coverage (Anaconda)
 
-* `git@github.com:rdempsey/pypi_scraper.git`
+* `git clone git@github.com:rdempsey/pypi_scraper.git`
 * `cd pypi_scraper`
 * `conda create --name pypiscraper python=3.6`
 * `source activate pypiscraper`
