@@ -69,3 +69,4 @@ docker-compose.build.yml
 
 # Local files and folders
 logs
+dc-pypi-scraper.sh

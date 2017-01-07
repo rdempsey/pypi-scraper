@@ -1,7 +1,7 @@
 version: '2'
 services:
   pypi_scraper:
-    image: rdempsey/pypi-pypi_scraper:latest
+    image: rdempsey/pypi_scraper:latest
     volumes:
       - .:/code
       - logs:/var/log/pypi_scraper
