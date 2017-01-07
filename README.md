@@ -24,7 +24,7 @@ If you want to run it locally or run the tests you'll need:
 * `cd pypi_scraper`
 * Update `docker-compose.yml` to suit your fancy, specifically the data volume mount
 * `docker login`
-* `docker pull rdempsey/pypi_scraper:latest`
+* `docker pull rdempsey/pypi-scraper:latest`
 * `docker-compose up -d`
 
 ## Run the Tests With Coverage (Anaconda)

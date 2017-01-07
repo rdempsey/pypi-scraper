@@ -66,6 +66,7 @@ target/
 
 # Local Docker files
 docker-compose.build.yml
+docker-compose.prod.yml
 
 # Local files and folders
 logs
