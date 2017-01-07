@@ -1,0 +1,15 @@
+[run]
+omit =
+  # Docs
+  docs/*
+  # Coverage report
+  htmlcov/*
+  # Log folder
+  logs/*
+  # Non-code files
+  pypi_scraper/__init__.py
+  pypi_scraper/version.py
+
+[html]
+directory = htmlcov
+title = PyPI Scraper Coverage Report

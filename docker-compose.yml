@@ -1,0 +1,18 @@
+version: '2'
+services:
+  scraper:
+    image: rdempsey/pypi-scraper:latest
+    volumes:
+      - .:/code
+      - logs:/var/log/pypi_scraper
+      - data:/usr/src/app/data
+    environment:
+      - PYPI_SOURCE_PAGE=https://pypi.python.org/pypi
+      - LOG_LEVEL=INFO
+      - LOG_DIR=/var/log/pypi_scraper
+      - LOG_FILE_NAME=pypi_scraper.log
+    restart: "on-failure:3"
+
+volumes:
+  logs:
+  data:
