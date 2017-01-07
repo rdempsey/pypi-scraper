@@ -1,9 +1,8 @@
 version: '2'
 services:
   pypi_scraper:
-    image: rdempsey/pypi_scraper:latest
+    image: rdempsey/pypi-scraper:latest
     volumes:
-      - .:/code
       - logs:/var/log/pypi_scraper
       - data:/usr/src/app/data # Change this mapping to where you want the data stored
     environment:
