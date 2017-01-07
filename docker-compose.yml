@@ -1,11 +1,11 @@
 version: '2'
 services:
-  scraper:
-    image: rdempsey/pypi-scraper:latest
+  pypi_scraper:
+    image: rdempsey/pypi-pypi_scraper:latest
     volumes:
       - .:/code
       - logs:/var/log/pypi_scraper
-      - data:/usr/src/app/data
+      - data:/usr/src/app/data # Change this mapping to where you want the data stored
     environment:
       - PYPI_SOURCE_PAGE=https://pypi.python.org/pypi
       - LOG_LEVEL=INFO
